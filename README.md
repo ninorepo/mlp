@@ -27,7 +27,7 @@ mlp_destroy(net);
 
 ## Accessing weights
 ```c
-double weights = net->weights;
+double* weights = net->weights;
 int length = net->weight_size;
 ```
 
