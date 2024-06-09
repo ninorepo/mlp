@@ -1,4 +1,4 @@
-#include "mlp.h"
+
 int mlp_debug(double *array, int size)
 {
 	for (int i = 0; i < size; i++)
